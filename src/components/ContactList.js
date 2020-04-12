@@ -39,7 +39,7 @@ function ContactList() {
             <li>
               <Contact
                 name={user.name}
-                isOnline={user.online}
+                online={user.online}
                 avatar={user.avatar}
               />
             </li>

@@ -4,10 +4,14 @@ import Contact from './components/Contact';
 import ContactList from './components/ContactList';
 
 
+
 function App() {
   return (
     <div className="App">
-    <ContactList/>
+      <ContactList />
+    <Contact />
+
+    
     </div>
   );
 }
@@ -15,7 +19,7 @@ function App() {
 Contact.propTypes = {
   name: PropTypes.string.isRequired,
   avatar : PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
+  online: PropTypes.bool.isRequired,
 };
 
 export default App;
